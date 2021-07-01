@@ -1,0 +1,4 @@
+server:
+  port: 8082
+event-manager:
+  host: http://localhost:8080/

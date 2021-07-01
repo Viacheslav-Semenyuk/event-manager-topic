@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="second-app" />
+        <module name="first-app" />
+        <module name="third-app" />
+        <module name="event-manager" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="animal-blog" target="1.8" />
+      <module name="car-blog" target="1.8" />
+      <module name="one-app" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="animal-blog" options="-parameters" />
+      <module name="car-blog" options="-parameters" />
+      <module name="event-manager" options="-parameters" />
+      <module name="first-app" options="-parameters" />
+      <module name="one-app" options="-parameters" />
+      <module name="second-app" options="-parameters" />
+      <module name="third-app" options="-parameters" />
+    </option>
+  </component>
+</project>
